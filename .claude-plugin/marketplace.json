@@ -1,0 +1,33 @@
+{
+  "name": "qawlat",
+  "owner": {
+    "name": "Qawlat",
+    "url": "https://qawlat.com"
+  },
+  "metadata": {
+    "description": "Quranic roots, word forms, ayah analysis, topics, opposites, and statistics, drawn from the Quran text alone.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "qawlat",
+      "source": "./",
+      "description": "Quranic roots, word forms, ayah analysis, topics, opposites, and statistics, drawn from the Quran text alone.",
+      "version": "1.0.0",
+      "category": "education",
+      "keywords": [
+        "quran",
+        "القرآن",
+        "قرءان",
+        "arabic",
+        "quranic-roots",
+        "جذور",
+        "ayah",
+        "surah",
+        "islamic-studies",
+        "linguistics",
+        "mcp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "qawlat",
+  "version": "1.0.0",
+  "owner": "qawlat",
+  "displayName": "Qawlat — قَولات",
+  "description": "Quranic roots, word forms, ayah analysis, topics, opposites, and statistics, drawn from the Quran text alone.",
+  "longDescription": "Qawlat is an open encyclopedia of Quranic roots built from the Quran text alone, with no tafsir or external lexicons. Look up exact ayah text, root definitions, word forms and counts, differences between close words, opposites, surah profiles, topics, names of God, and supplications, and verify any quotation against the Mushaf. Read-only, no account, free.",
+  "mcpUrl": "https://qawlat.com/mcp",
+  "homepage": "https://qawlat.com/ai/",
+  "privacy": "https://qawlat.com/privacy.html",
+  "keywords": ["quran", "القرآن", "قرءان", "arabic", "quranic-roots", "جذور", "ayah", "surah", "islamic-studies", "linguistics", "mcp"],
+  "defaultPrompt": ["ما الفرق بين الظنّ والشكّ في القرءان؟", "حلّل جذر «علم» من قَولات", "تحقّق من هذا النصّ: قل هو الله أحد"]
+}

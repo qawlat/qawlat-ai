@@ -1,0 +1,45 @@
+{
+  "name": "qawlat",
+  "version": "1.0.0",
+  "description": "Quranic roots, word forms, ayah analysis, topics, opposites, and statistics, drawn from the Quran text alone.",
+  "author": {
+    "name": "Qawlat",
+    "url": "https://qawlat.com"
+  },
+  "homepage": "https://qawlat.com/ai/",
+  "repository": "https://github.com/qawlat/qawlat-ai",
+  "license": "MIT",
+  "keywords": [
+    "quran",
+    "القرآن",
+    "قرءان",
+    "arabic",
+    "quranic-roots",
+    "جذور",
+    "ayah",
+    "surah",
+    "islamic-studies",
+    "linguistics",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Qawlat — قَولات",
+    "shortDescription": "Quranic roots, word forms, ayah analysis, topics, opposites, and statistics, drawn from the Quran text alone.",
+    "longDescription": "Qawlat is an open encyclopedia of Quranic roots built from the Quran text alone, with no tafsir or external lexicons. Look up exact ayah text, root definitions, word forms and counts, differences between close words, opposites, surah profiles, topics, names of God, and supplications, and verify any quotation against the Mushaf. Read-only, no account, free.",
+    "developerName": "Qawlat",
+    "category": "Education",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://qawlat.com/ai/",
+    "privacyPolicyURL": "https://qawlat.com/privacy.html",
+    "defaultPrompt": [
+      "ما الفرق بين الظنّ والشكّ في القرءان؟",
+      "حلّل جذر «علم» من قَولات",
+      "تحقّق من هذا النصّ: قل هو الله أحد"
+    ],
+    "brandColor": "#173A2F"
+  }
+}

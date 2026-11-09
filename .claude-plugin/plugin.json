@@ -1,0 +1,25 @@
+{
+  "name": "qawlat",
+  "version": "1.0.0",
+  "description": "Quranic roots, word forms, ayah analysis, topics, opposites, and statistics, drawn from the Quran text alone.",
+  "author": {
+    "name": "Qawlat",
+    "url": "https://qawlat.com"
+  },
+  "homepage": "https://qawlat.com/ai/",
+  "repository": "https://github.com/qawlat/qawlat-ai",
+  "license": "MIT",
+  "keywords": [
+    "quran",
+    "القرآن",
+    "قرءان",
+    "arabic",
+    "quranic-roots",
+    "جذور",
+    "ayah",
+    "surah",
+    "islamic-studies",
+    "linguistics",
+    "mcp"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "qawlat": {
+      "type": "http",
+      "url": "https://qawlat.com/mcp"
+    }
+  }
+}

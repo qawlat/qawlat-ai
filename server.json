@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.qawlat/qawlat",
+  "title": "Qawlat — قَولات",
+  "description": "Quranic roots, word forms, ayah analysis, topics, opposites, and statistics, drawn from the Quran te",
+  "version": "1.0.0",
+  "websiteUrl": "https://qawlat.com/ai/",
+  "repository": {
+    "url": "https://github.com/qawlat/qawlat-ai",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://qawlat.com/mcp"
+    }
+  ]
+}
