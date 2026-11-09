@@ -5,17 +5,17 @@ const m = JSON.parse(readFileSync("manifest.source.json", "utf8"));
 const repo = `https://github.com/${m.owner}/qawlat-ai`;
 const author = { name: "Qawlat", url: "https://qawlat.com" };
 const files = {
-  ".mcp.json": { mcpServers: { qawlat: { type: "http", url: m.mcpUrl } } },
-  ".claude-plugin/plugin.json": {
+  "plugin/.mcp.json": { mcpServers: { qawlat: { type: "http", url: m.mcpUrl } } },
+  "plugin/.claude-plugin/plugin.json": {
     name: m.name, version: m.version, description: m.description, author, homepage: m.homepage,
-    repository: repo, license: "MIT", keywords: m.keywords,
+    repository: repo, license: "MIT", keywords: m.keywords, privacyPolicyUrl: m.privacy,
   },
   ".claude-plugin/marketplace.json": {
     name: m.owner, owner: { name: "Qawlat", url: "https://qawlat.com" },
     metadata: { description: m.description, version: m.version },
-    plugins: [{ name: m.name, source: "./", description: m.description, version: m.version, category: "education", keywords: m.keywords }],
+    plugins: [{ name: m.name, source: "./plugin", description: m.description, version: m.version, category: "education", keywords: m.keywords }],
   },
-  ".codex-plugin/plugin.json": {
+  "plugin/.codex-plugin/plugin.json": {
     name: m.name, version: m.version, description: m.description, author, homepage: m.homepage,
     repository: repo, license: "MIT", keywords: m.keywords, skills: "./skills/", mcpServers: "./.mcp.json",
     interface: {

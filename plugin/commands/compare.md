@@ -1,5 +1,5 @@
 ---
-description: قارن بين جذرين أو أكثر
+description: "قارن بين جذرين أو أكثر"
 argument-hint: "<جذر> <جذر> …"
 ---
 

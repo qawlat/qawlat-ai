@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "qawlat",
-      "source": "./",
+      "source": "./plugin",
       "description": "Quranic roots, word forms, ayah analysis, topics, opposites, and statistics, drawn from the Quran text alone.",
       "version": "1.0.0",
       "category": "education",

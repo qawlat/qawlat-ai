@@ -24,8 +24,8 @@
 ## البنية
 
 - `server/`: عاملٌ على Cloudflare Workers، عديم الحالة، يقرأ شظايا منشورة على qawlat.com فتبقى إجاباته بحداثة الموقع.
-- `skills/qawlat/`: مهارة قواعد الإجابة، بمعيار Agent Skills.
-- `commands/`: الأوامر المائلة.
+- `plugin/skills/qawlat/`: مهارة قواعد الإجابة، بمعيار Agent Skills.
+- `plugin/commands/`: الأوامر المائلة.
 - `manifest.source.json`: المصدر الواحد لملفّات تعريف المنصّات (`node scripts/gen_manifests.mjs`).
 
 ## الخصوصيّة والرخصة

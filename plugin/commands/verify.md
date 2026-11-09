@@ -1,5 +1,5 @@
 ---
-description: تحقّق من نصّ آية قبل نقله
+description: "تحقّق من نصّ آية قبل نقله"
 argument-hint: "<النصّ>"
 ---
 
