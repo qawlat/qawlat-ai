@@ -23,8 +23,8 @@ const tool = (name: string, title: string, description: string, properties: J = 
 });
 
 export const TOOLS = [
-  tool("get_guide", "Guide and rules", "Rules for answering from Qawlat, what each tool covers, and live corpus totals. Call once at the start."),
-  tool("get_ayah", "Get ayah", "Exact Uthmani text of one or more ayahs with Qawlat's analysis of each. Use instead of quoting from memory.",
+  tool("get_guide", "Guide and rules", "Qawlat's method and citation conventions, what each tool covers, and live corpus totals."),
+  tool("get_ayah", "Get ayah", "Exact Uthmani text of one or more ayahs with Qawlat's analysis of each.",
     { refs: { type: "array", items: { type: "string" }, description: 'Up to 20 refs or ranges, e.g. ["2:255", "1:1-7"]' }, detail: DETAIL, text_only: { type: "boolean", description: "Return text without analysis" } }, ["refs"]),
   tool("get_root", "Get root", "Full analysis of a Quranic root: precise definition, derivations, distinctions, substitution tests. Sections: concept, final, summary, verse, derivations, occurrences, common, distinction, substitution, distinctions, field_rel, methodology, antonym, result, shawahid, lataif.",
     { root: str("Root in Arabic, e.g. علم"), sections: { type: "array", items: { type: "string" }, description: "Section keys; default: concept, final, summary, common, result" } }, ["root"]),
@@ -52,7 +52,7 @@ export const TOOLS = [
     { id: str("Discovery id"), root: str("Root in Arabic"), type: str("إحصائي, بنيوي, تقابلي, or رسمي"), query: str("Words in the title"), limit: int("Default 10, max 30") }),
   tool("search", "Search", "Search everything at once: roots, word forms, exact phrases in the Quran, surahs, topics, fields, names of God, discoveries.",
     { query: str("Arabic text"), limit: int("Results per kind, default 10, max 50") }, ["query"]),
-  tool("verify_quote", "Verify quote", "Checks a quotation against the Mushaf and returns the exact text and place. Use before presenting any verse.",
+  tool("verify_quote", "Verify quote", "Checks a quotation against the Mushaf and returns the exact text and place.",
     { text: str("The quoted text, one ayah or part of one") }, ["text"]),
 ];
 

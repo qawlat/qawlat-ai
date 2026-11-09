@@ -8,7 +8,7 @@ export interface Env {
 // خادم MCP عديم الحالة، للقراءة فقط، بنقل Streamable HTTP وردود JSON.
 // بلا مكتبة SDK عمدًا: حدّ المعالجة في الطبقة المجّانيّة ١٠ م.ث، والبروتوكول هنا أربع طرق.
 const VERSIONS = ["2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05"];
-const SERVER = { name: "qawlat", title: "Qawlat — قَولات", version: "1.0.1", websiteUrl: `${SITE}/ai/` };
+const SERVER = { name: "qawlat", title: "Qawlat — قَولات", version: "1.0.2", websiteUrl: `${SITE}/ai/` };
 const CORS = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
