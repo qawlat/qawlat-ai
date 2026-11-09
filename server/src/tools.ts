@@ -306,7 +306,7 @@ const handlers: Record<string, (a: Args, st: Store, cat: Catalog) => Promise<J>>
     const q = s(a, "name");
     if (!q) return wrap({ names: cat.asma.map((x) => ({ form: x.form, root: x.root, occurrences: x.occ })) }, `${SITE}/stats/asma.html`);
     const k = key(q);
-    const hit = cat.asma.find((x) => x.id === q) ?? cat.asma.find((x) => x.form === q) ?? (k ? cat.asma.find((x) => x.k === k) : undefined);
+    const hit = cat.asma.find((x) => x.id === q) ?? cat.asma.find((x) => x.form === q) ?? (k ? cat.asma.find((x) => x.k === k) ?? cat.asma.find((x) => x.k === k.replace(/^ل/u, "") || "ل" + x.k === k) : undefined);
     if (!hit) throw new ToolError(`لم أجد اسمًا مطابقًا لـ«${q}». استعمل get_asma بلا مدخل لرؤية القائمة.`);
     const d = await st.kv<J>(`asma:${hit.id}`);
     if (!d) throw new ToolError("تعذّر جلب الاسم.");

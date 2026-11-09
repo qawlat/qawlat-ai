@@ -114,6 +114,8 @@ test("الطبقات: السور والموضوعات والحقول والأض�
   assert.equal(asma.occurrences, src("asma-data.json").entries.find((x: any) => x.form_display === "الله").occurrences);
   assert.ok(asma.verses.length <= 10);
 
+  const rahim = await call("get_asma", { name: "الرحيم" }); // المستخدم يكتب بأل والمدخل قد يكون بلا أل
+  assert.ok(["رحيم", "الرحيم"].includes(key(rahim.form_display) === "رحيم" ? "رحيم" : rahim.form_display), rahim.form_display);
   const dd = src("duas-data.json").records;
   assert.equal((await call("get_dua", { id: "du-001" })).sura, dd[0].sura);
   assert.equal((await call("get_dua", { theme: "hidayah" })).total, dd.filter((x: any) => x.themes?.includes("hidayah")).length);
