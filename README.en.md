@@ -23,6 +23,8 @@ Plugin commands: `/qawlat:ayah` · `/qawlat:root` · `/qawlat:qawla` · `/qawlat
 
 **`/qawlat:check-text`** checks every Quran quotation in a full text (article, sermon, post) before you publish it: ✅ exact · ⚠️ spelling differs · ❌ altered, with the correct ayah · ⛔ not in the Quran.
 
+Skills: `qawlat` (answering rules for the tools) and `qawlat-data` (for developers: which open dataset holds what, MCP vs downloads, attribution and text-integrity rules). `evals/` measures the plugin's effect.
+
 ## Privacy and license
 
 Queries are not stored and no account is needed: [privacy policy](https://qawlat.com/privacy.html). Code is MIT. Data is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); please credit Qawlat.
