@@ -19,7 +19,9 @@
 
 `get_guide` · `get_ayah` · `get_root` · `get_root_occurrences` · `get_qawla` · `get_abwab` · `get_surah` · `list_topics` · `get_topic` · `get_field` · `compare` · `get_antonym` · `get_asma` · `get_dua` · `get_discovery` · `search` · `verify_quote`
 
-الأوامر في الحزمة: `/qawlat:ayah` · `/qawlat:root` · `/qawlat:qawla` · `/qawlat:search` · `/qawlat:compare` · `/qawlat:verify`
+الأوامر في الحزمة: `/qawlat:ayah` · `/qawlat:root` · `/qawlat:qawla` · `/qawlat:search` · `/qawlat:compare` · `/qawlat:verify` · `/qawlat:check-text`
+
+**`/qawlat:check-text`** يفحص كلّ اقتباسٍ قرءانيّ في نصٍّ كامل (مقال، خطبة، منشور) قبل نشره: ✅ مطابق · ⚠️ يختلف رسمه · ❌ محرَّف مع الآية الصحيحة · ⛔ ليس في القرءان.
 
 ## البنية
 

@@ -19,6 +19,10 @@ Server URL: `https://qawlat.com/mcp`
 
 `get_guide` · `get_ayah` · `get_root` · `get_root_occurrences` · `get_qawla` · `get_abwab` · `get_surah` · `list_topics` · `get_topic` · `get_field` · `compare` · `get_antonym` · `get_asma` · `get_dua` · `get_discovery` · `search` · `verify_quote`
 
+Plugin commands: `/qawlat:ayah` · `/qawlat:root` · `/qawlat:qawla` · `/qawlat:search` · `/qawlat:compare` · `/qawlat:verify` · `/qawlat:check-text`
+
+**`/qawlat:check-text`** checks every Quran quotation in a full text (article, sermon, post) before you publish it: ✅ exact · ⚠️ spelling differs · ❌ altered, with the correct ayah · ⛔ not in the Quran.
+
 ## Privacy and license
 
 Queries are not stored and no account is needed: [privacy policy](https://qawlat.com/privacy.html). Code is MIT. Data is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); please credit Qawlat.
